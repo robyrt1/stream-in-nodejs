@@ -1,0 +1,19 @@
+{
+  "name": "@robert/aula4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start":"node wep.api.js | tee logs/2.db.stream.log",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "pg-query-stream": "^4.6.0"
+  }
+}

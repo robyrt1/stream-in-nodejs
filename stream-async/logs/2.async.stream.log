@@ -1,0 +1,4 @@
+[Duplex writable] This_is_my
+[Duplex writable] custom_readable
+[writable] wholeString This_is_my,custom_readable
+[writable] bytesRead 25

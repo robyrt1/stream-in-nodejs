@@ -1,0 +1,19 @@
+{
+  "name": "@robert/aula2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start-server": "node webapi.js",
+    "api1": "curl localhost:3005 | tee logs/api1.log",
+    "api2": "curl localhost:4000 | tee logs/api2.log",
+    "examples01": "node examples/1.concat-streams.async-iterators.js | tee logs/1.concat-streams.async-iterators.log"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.2"
+  }
+}
